@@ -4,6 +4,9 @@
 ## DESCRIPTION
 Welcome to Ino Screen Capture, the ultimate screen capture solution meticulously designed for Unreal Engine 5.3. With our plugin, users can effortlessly capture real-time screens or specific windows, offering unparalleled performance optimization and minimal impact on overall performance. Dive into a world of possibilities with Ino Screen Capture, whether for game development, content creation, or dynamic presentations.
 
+## Documents
+https://docs.inoland.net/documentation/isc-welcome/
+
 ## Key Features:
 Multi-Screen Capture: Seamlessly capture multiple screens simultaneously or target individual monitors for precise content creation.
 Optimized Performance: Enjoy the best optimized capturing method, ensuring the highest quality captures with the lowest performance overhead.
