@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.2.1",
+	"EngineVersion": "5.4",
+	"FriendlyName": "Ino Screen Capture",
+	"Description": "Easily capture your monitors in any size and FPS in real time, the best optimized way, with the lowest impact on performance.",
+	"Category": "Ino Plugins",
+	"CreatedBy": "Inoland Studio",
+	"CreatedByURL": "https://inoland.net",
+	"DocsURL": "https://docs.inoland.net/documentation/isc-welcome/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c6fa2def44e6499fb0bb847e13bb5012",
+	"SupportURL": "https://discord.gg/4pWBHE7NHE",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "InoScreenCapture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
