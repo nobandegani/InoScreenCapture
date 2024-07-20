@@ -78,12 +78,12 @@ struct FISC_ImageInfo
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "ISC|ImageInfo")
 	int32 Top;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "ISC|ImageInfo")
+	int32 Bottom;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "ISC|ImageInfo")
 	int32 Right;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "ISC|ImageInfo")
-	int32 Bottom;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "ISC|ImageInfo")
 	int32 Width;
@@ -104,13 +104,14 @@ struct FISC_ImageInfo
 		Area(-1)
 	{
 	}
-	FISC_ImageInfo(int inLeft, int inTop, int inRight, int inBottom)
+	
+	FISC_ImageInfo(int inLeft, int inTop, int inBottom, int inRight)
 		: Left(inLeft),
 		  Top(inTop),
 		Bottom(inBottom),
 		Right(inRight),
-		Width(inRight - inLeft),
-		Height(inBottom - inTop),
+		Width(Right - Left),
+		Height(Bottom - Top),
 		Area(Width * Height)
 	{
 	}
